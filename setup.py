@@ -40,16 +40,16 @@ if on_rtd:
     install_requires = []
 else:
     install_requires = [
-        "numpy<1.24",
+        "numpy<1.26",
         "black>=22.1.0",
         "click==8.0.4",
         "graphviz",
         "hyperopt>=0.2,<=0.2.5",
         "jsonschema",
         "jsonsubschema>=0.0.6",
-        "scikit-learn>=1.0.0,<=1.2.0",
+        "scikit-learn>=1.0.0,<=1.3.0",
         "scipy<1.11.0",
-        "pandas<2.0.0",
+        "pandas<2.1.0",
         "packaging",
         "decorator",
         "astunparse",
@@ -67,9 +67,9 @@ else:
 extras_require = {
     "full": [
         "mystic",
-        "xgboost<=1.5.1",
-        "lightgbm<4.0.0",
-        "snapml>=1.7.0rc3,<1.12.0",
+        "xgboost<=1.8.0",
+        "lightgbm<4.1.0",
+        "snapml>=1.7.0rc3,<1.15.0",
         "liac-arff>=2.4.0",
         "tensorflow>=2.4.0",
         "smac<=0.10.0",
